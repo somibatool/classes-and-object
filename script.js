@@ -119,49 +119,49 @@
 //     await api();
 //     await api();
 // }
-function getdata(dataId){
-    return new Promise((resolve, reject)=>{
-        setTimeout(()=>{
-            console.log("data" , dataId);
-            resolve("sucess");
-        }, 2000);
-    });
-}
-async function getAlldata(){
-    console.log("getting data1......");
-    await  getdata(1);
-    console.log("getting data2......");
-    await  getdata(2);
-    console.log("getting data3......");
-    await  getdata(3);
-    console.log("getting data4......");
-    await  getdata(4);
-    console.log("getting data5......");
-    await  getdata(5);
-    console.log("getting data6......");
-    await  getdata(56);
-}
-function getstudent(studname){
-    return new Promise((resolve, reject)=>{
-        setTimeout(() => {
-            console.log("name of students" ,studname );
-            resolve("sucess");
-        }, 2000);
-    });
-}
-(async function getalldata(){
-    console.log("fetching data1.........")
-    await getstudent("somi")
-    console.log("fetching data2.........")
-    await getstudent("ali")
-    console.log("fetching data3.........")
-    await getstudent("adi")
-    console.log("fetching data4.........")
-    await getstudent("sona")
-    console.log("fetching data5.........")
-    await getstudent("fatii")
-    console.log("fetching data6.........")
-    await getstudent("aleena")
-    console.log("fetching data7.........")
-    await getstudent("dua")
-})();
+// function getdata(dataId){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             console.log("data" , dataId);
+//             resolve("sucess");
+//         }, 2000);
+//     });
+// }
+// async function getAlldata(){
+//     console.log("getting data1......");
+//     await  getdata(1);
+//     console.log("getting data2......");
+//     await  getdata(2);
+//     console.log("getting data3......");
+//     await  getdata(3);
+//     console.log("getting data4......");
+//     await  getdata(4);
+//     console.log("getting data5......");
+//     await  getdata(5);
+//     console.log("getting data6......");
+//     await  getdata(56);
+// }
+// function getstudent(studname){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(() => {
+//             console.log("name of students" ,studname );
+//             resolve("sucess");
+//         }, 2000);
+//     });
+// }
+// (async function getalldata(){
+//     console.log("fetching data1.........")
+//     await getstudent("somi")
+//     console.log("fetching data2.........")
+//     await getstudent("ali")
+//     console.log("fetching data3.........")
+//     await getstudent("adi")
+//     console.log("fetching data4.........")
+//     await getstudent("sona")
+//     console.log("fetching data5.........")
+//     await getstudent("fatii")
+//     console.log("fetching data6.........")
+//     await getstudent("aleena")
+//     console.log("fetching data7.........")
+//     await getstudent("dua")
+// })();
