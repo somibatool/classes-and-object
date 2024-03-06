@@ -165,3 +165,12 @@
 //     console.log("fetching data7.........")
 //     await getstudent("dua")
 // })();
+const dropdowns=document.querySelectorAll(".dropdown select");
+for(let select of dropdowns){
+    for(currcode in countrylist){
+        let newOption = document.createElement("option");
+        newOption.innerText=currcode;
+        newOption.value =currcode;
+        select.append(newOption);
+    }
+}
